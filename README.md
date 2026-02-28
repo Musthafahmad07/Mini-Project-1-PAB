@@ -3,14 +3,15 @@
 Aplikasi ini merupakan aplikasi Manajemen Perpustakaan sederhana yang dibuat menggunakan framework Flutter dengan bahasa pemrograman Dart. Aplikasi ini bertujuan untuk membantu pengguna dalam menambahkan dan menyimpan data buku, termasuk informasi seperti judul buku, nama pengarang, dan tahun terbit.
 ### Fitur Aplikasi
 1. Form tambah buku
+   
 Didalam form dapat mengisi
    - Judul Buku
    - Nama Pengarang
    - Tahun Terbit
    - Tombol Simpan  
-2. Hapus List
-3. Pindah halaman selanjutnya 
-4. Balik ke halaman sebelumnya
+3. Hapus List
+4. Pindah halaman selanjutnya 
+5. Balik ke halaman sebelumnya
 ### Widget yang Digunakan
 1. StatelessWidget → Widget tanpa state (tampilan tetap).
 2. Scaffold → Kerangka dasar halaman (AppBar, body, FAB, bottom bar).
