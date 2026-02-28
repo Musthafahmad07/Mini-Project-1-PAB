@@ -14,8 +14,7 @@ class HalamanTentang extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const SizedBox(height: 20),
-
-            // Icon Aplikasi
+            
             const CircleAvatar(
               radius: 50,
               backgroundColor: Colors.blue,
