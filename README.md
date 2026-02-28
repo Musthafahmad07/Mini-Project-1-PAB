@@ -1,6 +1,6 @@
 # Aplikasi Manajemen Perpustakaan
 ### Deskripsi Aplikasi
-Aplikasi ini merupakan aplikasi Manajemen Perpustakaan sederhana yang dibuat menggunakan framework Flutter dengan bahasa pemrograman Dart. Aplikasi ini bertujuan untuk membantu pengguna dalam menambahkan dan menyimpan data buku, termasuk informasi seperti judul buku, nama pengarang, dan tahun terbit.
+Aplikasi ini merupakan aplikasi Manajemen Perpustakaan sederhana yang dibuat menggunakan Flutter dengan bahasa pemrograman Dart. Aplikasi ini bertujuan untuk membantu pengguna dalam menambahkan dan menyimpan data buku, termasuk informasi seperti judul buku, nama pengarang, dan tahun terbit.
 ### Fitur Aplikasi
 1. Form tambah buku
    
