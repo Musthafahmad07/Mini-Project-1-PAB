@@ -5,13 +5,11 @@ import '../model/buku.dart';
 class HalamanForm extends StatelessWidget {
   final Function(Buku) saatSimpan;
   final Buku? buku;
-
-  // Constructor untuk menerima data buku dan fungsi saatSimpan
+  
   const HalamanForm({super.key, required this.saatSimpan, this.buku});
 
   @override
   Widget build(BuildContext context) {
-    // Inisialisasi controller dengan data buku (jika ada) atau nilai kosong
     TextEditingController controllerJudul =
         TextEditingController(text: buku?.judul ?? '');
     TextEditingController controllerPengarang =
@@ -60,9 +58,8 @@ class HalamanForm extends StatelessWidget {
                         tahun: controllerTahun.text,
                       ),
                     );
-                    Get.back(); // Kembali ke halaman sebelumnya
+                    Get.back(); 
                   } else {
-                    // Validasi manual jika perlu
                     Get.snackbar("Peringatan", "Semua kolom harus diisi!");
                   }
                 },
